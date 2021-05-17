@@ -1,0 +1,10 @@
+field_error_password_required = 'Password is required.'
+user_not_active = 'User is not active.'
+invalid_password = 'Invalid Email/Password.'
+field_error_password_confirm = 'Invalid confirm password.'
+field_error_same_password = 'Existing and new password cannot be same.'
+field_error_past_date = 'Expiry date cannot be in past.'
+field_error_role_is_required = 'Role for staff is required.'
+field_error_invalid_role_for_organization = "Invalid role id for organization."
+field_error_invalid_role_for_admin = "Invalid role id for admin."
+field_error_device_id_not_found = "Required field device id not found."
