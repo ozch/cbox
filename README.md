@@ -23,7 +23,7 @@ Follow below steps to setup project from scratch.
 * Run following command to start server and deploy project.
 ```python manage.py runserver```
 
-### Setting Up Backend
+### Setting Up Frontend
 
 Follow below steps to setup project from scratch.
 
