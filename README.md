@@ -39,9 +39,9 @@ Follow below steps to setup project from scratch.
 ### Credentials
 
 #### Admin Account:
-email: admin@card.com
+email: admin@cardi.com
 password: Test@1
 
 #### Client Account
-email: user@card.com
+email: user@cardi.com
 password: Test@1
