@@ -7,7 +7,7 @@ export default class Register extends React.Component {
     super(props);
     this.state = {
       "error": "",
-      "fist_name":"",
+      "first_name":"",
       "email":"",
       "password":"",
     }
@@ -19,12 +19,14 @@ export default class Register extends React.Component {
   }
 
   createUser(){
-    if(!this.state.email || !this.state.password || this.state.fist_name){
+    console.log(this.state)
+    if(!this.state.email || !this.state.password || !this.state.first_name){
       this.setState({error:"Please fill all fields" })
       return
     }
     axios.post("/user/signup/",{
-      first_name: this.state.fist_name,
+      first_name: this.state.first_name,
+      last_name: "",
       email: this.state.email,
       password:this.state.password
     }).then((response)=>{
