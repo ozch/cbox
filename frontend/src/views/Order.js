@@ -74,7 +74,7 @@ class Tabs extends React.Component {
     console.log({length,width,height,contact,address,number,note,price})
     axios
       .post('/user/orders/', {
-        length,width,height,contact,address,number,note,price,status:'In Progress'
+        length,width,height,contact,address,number,note,price,status:'Pending'
       })
       .then((response) => {
         console.log(response)
