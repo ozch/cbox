@@ -33,10 +33,10 @@ export default class Index extends React.Component {
             <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
               <div className="pt-32 sm:pt-0">
                 <h2 className="font-semibold text-4xl text-blueGray-600">
-                  Cardi - Cardboard.
+                  Online Custom Packlane - Cardboard Boxs.
                 </h2>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  Cardi - Cardboard.{" "}
+                  Online Custom Packlane - Cardboard Boxs.{" "}
                   <a
                     href="https://tailwindcss.com/?ref=creativetim"
                     className="text-blueGray-600"
@@ -48,8 +48,7 @@ export default class Index extends React.Component {
                 </p>
                 <div className="mt-12">
                   <a
-                    href=""
-                    target="_blank"
+                    src="/order"
                     className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   >
                     Design Now

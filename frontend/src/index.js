@@ -15,6 +15,7 @@ import Auth from "layouts/Auth.js";
 
 import Landing from "views/Landing.js";
 import Index from "views/Index.js";
+import Order from "views/Order.js";
 
 import axios from 'axios';
 axios.defaults.baseURL = 'http://localhost:8000';
@@ -45,6 +46,7 @@ ReactDOM.render(
       <Route path="/admin" component={Admin} />
       <Route path="/auth" component={Auth} />
       {/* add routes without layouts */}
+      <Route path="/order" exact component={Order} />
       <Route path="/landing" exact component={Landing} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}
