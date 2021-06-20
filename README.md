@@ -1,4 +1,4 @@
-# Archi API
+# Cardi
 
 ### Pre-requisite
 
@@ -23,7 +23,7 @@ Follow below steps to setup project from scratch.
 * Run following command to start server and deploy project.
 ```python manage.py runserver```
 
-### Setting Up Backend
+### Setting Up Frontend
 
 Follow below steps to setup project from scratch.
 
@@ -39,9 +39,9 @@ Follow below steps to setup project from scratch.
 ### Credentials
 
 #### Admin Account:
-email: admin@card.com
+email: admin@cardi.com
 password: Test@1
 
 #### Client Account
-email: user@card.com
+email: user@cardi.com
 password: Test@1
