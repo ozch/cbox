@@ -74,6 +74,26 @@ export default class Navbar extends React.Component {
               id='example-navbar-warning'
             >
               <ul className='flex flex-col lg:flex-row list-none lg:ml-auto'>
+              <li className="flex items-center">
+                <Link
+                  to="/contact-us"
+                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="#"
+                >
+                  <i className="text-blueGray-400 fa fa-sticky-note text-lg leading-lg mr-2" />{" "}
+                  Contact US
+                </Link>
+              </li>
+              <li className="flex items-center">
+                <Link
+                  to="/faq"
+                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="#"
+                >
+                  <i className="text-blueGray-400 fa fa-question text-lg leading-lg mr-2" />{" "}
+                  FAQ
+                </Link>
+              </li>
               { this.state.loggedin &&<li className="flex items-center">
                 <Link
                   to="/admin/tables"
