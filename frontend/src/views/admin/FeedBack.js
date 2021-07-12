@@ -25,7 +25,7 @@ export default class FeedBack extends React.Component {
   }
 
   deleteRow(id){
-    axios.delete("/user/feedback/",{id:id}).then((response)=>{
+    axios.delete("/user/feedback/?id="+id,{id:id}).then((response)=>{
       this.fetchFeedBack()
     }).catch((error)=>{
       this.setState({error: "Sorry Could not delete"})

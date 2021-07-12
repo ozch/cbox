@@ -16,7 +16,37 @@ export default class FAQ extends React.Component {
       <>
         <IndexNavbar fixed />
         <section className='header relative pt-16 flex h-screen max-h-860-px'>
-          <div className='container mx-auto mt-10 flex flex-wrap w-3/6'>
+          <div className='container mx-auto mt-10  w-3/6'>
+            <h1 className="font-semibold text-2xl">Frequently Asked Questions</h1>
+            <br/>
+            <br/>
+            <h1 className="font-semibold text-xl">Q1: This Is A Question</h1>
+            <p>This Is A Question</p>
+            <br/>
+
+            <h1 className="font-semibold text-xl">This Is A Question</h1>
+            <p>This Is A Question</p>
+            <br/>
+
+            <h1 className="font-semibold text-xl">This Is A Question</h1>
+            <p>This Is A Question</p>
+            <br/>
+
+            <h1 className="font-semibold text-xl">This Is A Question</h1>
+            <p>This Is A Question</p>
+            <br/>
+
+            <h1 className="font-semibold text-xl">This Is A Question</h1>
+            <p>This Is A Question</p>
+            <br/>
+
+            <h1 className="font-semibold text-xl">This Is A Question</h1>
+            <p>This Is A Question</p>
+            <br/>
+
+            <h1 className="font-semibold text-xl">This Is A Question</h1>
+            <p>This Is A Question</p>
+            <br/>
           </div>
           <img
             className='absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px'

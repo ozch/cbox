@@ -26,6 +26,6 @@ class FeedBackView(APIView):
 
     @atomic
     def delete(self, request):
-        id = request.data.get('id', -1)
+        id = request.query_params.get("id")
         FeedBack.objects.filter(id=id).delete()
         return Response(status=status.HTTP_204_NO_CONTENT)

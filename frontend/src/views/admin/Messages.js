@@ -25,7 +25,8 @@ export default class Messages extends React.Component {
   }
 
   deleteRow(id){
-    axios.delete("/user/messages/",{id:id}).then((response)=>{
+    console.log(id)
+    axios.delete("/user/messages/?id="+id,{id:id}).then((response)=>{
       this.fetchMessages()
     }).catch((error)=>{
       this.setState({error: "Sorry Could not delete"})

@@ -12,6 +12,8 @@ import FooterAdmin from "components/Footers/FooterAdmin.js";
 
 import Dashboard from "views/admin/Dashboard.js";
 import FeedBack from "views/admin/FeedBack.js";
+import GiveFeedBack from "views/admin/SendFeedBack.js";
+
 import Messages from "views/admin/Messages.js";
 
 import Settings from "views/admin/Settings.js";
@@ -33,6 +35,7 @@ export default function Admin() {
             <Route path="/admin/dashboard" exact component={Dashboard} />
             <Route path="/admin/messages" exact component={Messages} />
             <Route path="/admin/feedback" exact component={FeedBack} />
+            <Route path="/admin/give-feedback" exact component={GiveFeedBack} />
             <Route path="/admin/settings" exact component={Settings} />
             <Route path="/admin/tables" exact component={Tables} />
             <Route path="/admin/archived" exact component={Archived} />

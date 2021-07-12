@@ -12,7 +12,8 @@ class Authentication:
                 'token': token.key,
                 'user_id': user.pk,
                 'is_super': user.is_superuser,
-                'email': user.email
+                'email': user.email,
+                'name': user.first_name
             })
         else:
             return Response(messages.user_not_active, status=status.HTTP_403_FORBIDDEN)

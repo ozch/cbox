@@ -58,14 +58,9 @@ class Tabs extends React.Component {
         username,email,feedback
       })
       .then((response) => {
-        this.props.history.push("/")
-
         console.log(response)
       })
       .catch((error) => {
-        this.props.history.push("/")
-
-        console.log(error)
       });
       this.setState({username:"",
       email:"",
@@ -128,6 +123,7 @@ class Tabs extends React.Component {
                           type='text'
                           className='border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150'
                           placeholder='Name'
+                          value={this.state.username}
                         />
                       </div>
                       
@@ -149,6 +145,7 @@ class Tabs extends React.Component {
                           }}
                           id='email'
                           type='text'
+                          value={this.state.email}
                           className='border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150'
                           placeholder='Email'
                         />
@@ -171,6 +168,7 @@ class Tabs extends React.Component {
                             this.onChange(e);
                           }}
                           id='feedback'
+                          value={this.state.feedback}
                           type='text'
                           className='border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150'
                           placeholder='Message'
