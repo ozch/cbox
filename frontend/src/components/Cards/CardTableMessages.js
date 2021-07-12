@@ -91,7 +91,7 @@ export default function CardTable({ color, data,deleteRow }) {
                   {e.email}
                  </td>
                  <td className='border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4'>
-                   {e.Message}
+                   {e.feedback}
                  </td>
                  <td className='border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right'>
                    {<button id={e.id} onClick={()=>{deleteRow(e.id)}}>Remove</button>}
